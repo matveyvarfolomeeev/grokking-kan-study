@@ -1,0 +1,5 @@
+split,model,p,train_fraction,seeds,classical_grokking,weak_delayed_generalization,joint_generalization,memorized_not_generalized,not_memorized
+random,mlp,31,0.35,10,0,0,0,10,0
+random,kan,31,0.35,10,8,0,0,2,0
+symmetry_safe,kan,31,0.35,5,0,0,0,5,0
+symmetry_safe,mlp,31,0.5,5,5,0,0,0,0

@@ -1,0 +1,13 @@
+﻿control,model,model_variant,train_fraction,seeds,classical_grokking,weak_delayed_generalization,joint_generalization,memorized_not_generalized,not_memorized,test_accuracy_mean,test_accuracy_ci95,classical_delay_median
+circular,gromov_quadratic,quadratic,0.3,5,0,0,0,0,5,0.11233283579349518,0.015233476195439624,
+circular,gromov_quadratic,quadratic,0.5,5,0,0,0,0,5,0.10810810625553131,0.011380419390227966,
+circular,gromov_quadratic,quadratic,0.7,5,0,0,0,0,5,0.10833333283662797,0.023318339275808675,
+circular,spline_kan,g5_o3_w14,0.3,5,0,0,0,0,5,0.13491826951503755,0.003729606018845182,
+circular,spline_kan,g5_o3_w14,0.5,5,0,0,0,0,5,0.16299376487731934,0.02342946811303363,
+circular,spline_kan,g5_o3_w14,0.7,5,0,0,0,0,5,0.2805555522441864,0.100745207668541,
+kan_p53_onehot,spline_kan,g5_o3_w14,0.3,3,0,3,0,0,0,0.9944048722585043,0.004150641063619756,2700.0
+spline_complexity,spline_kan,g3_o3_w18,0.35,3,0,0,0,3,0,0.7824000120162964,0.28189717492299815,
+spline_complexity,spline_kan,g5_o1_w18,0.35,3,0,0,0,0,3,0.008000000069538752,0.0036211405334069563,
+spline_default,spline_kan,g5_o3_w14,0.35,5,5,0,0,0,0,0.9974399924278259,0.002547696991909802,2300.0
+symmetry_kan,spline_kan,g5_o3_w14,0.35,5,0,0,0,5,0,0.1059199996292591,0.05131362245046431,
+symmetry_mlp,gromov_quadratic,quadratic,0.5,5,5,0,0,0,0,0.9987525939941406,0.00162994384765625,4900.0

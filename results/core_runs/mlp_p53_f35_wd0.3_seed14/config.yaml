@@ -1,0 +1,25 @@
+project: modular_addition_grokking
+run_name: mlp_p53_f35_wd0.3_seed14
+data:
+  p: 53
+  input_encoding: one_hot
+  train_fraction: 0.35
+  split_seed: 14
+  split_mode: random
+model:
+  type: gromov_quadratic
+  width: 128
+  activation: quadratic
+  initialization_scale: 1.0
+training:
+  seed: 14
+  optimizer: adamw
+  max_steps: 20000
+  learning_rate: 0.001
+  weight_decay: 0.3
+  eval_every: 100
+  grok_threshold: 0.99
+  grok_patience: 5
+  min_plateau_steps: 1000
+  stop_when_grokked: false
+  device: auto

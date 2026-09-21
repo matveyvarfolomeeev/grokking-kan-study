@@ -1,0 +1,31 @@
+% Generated from final CSV tables before release.
+\newcommand{\MainResultShort}{KAN не ускоряет grokking универсально, а сдвигает границы между фазами обучения.}
+\newcommand{\MainResultLong}{В полной матрице MLP дала 30/40 классических запусков, KAN --- 8/40. Локальный контраст возникает при $p=31$, 35\% train: MLP дала 0/10, KAN --- 8/10. При 50\% данных KAN обобщалась совместно или со слабой задержкой, а все 20 запусков $p=53$ получили класс weak delay.}
+\newcommand{\KanFourierMem}{0.175}
+\newcommand{\KanFourierGen}{0.828}
+\newcommand{\KanFourierFinal}{0.952}
+\newcommand{\MlpFourierMem}{0.075}
+\newcommand{\MlpFourierFinal}{0.527}
+\newcommand{\TopTenDelta}{-0.078}
+\newcommand{\RandomTenDelta}{-0.047}
+\newcommand{\BottomTenDelta}{0.000}
+\newcommand{\RandomFourierFinal}{0.952}
+\newcommand{\SymmetryFourierFinal}{0.165}
+\newcommand{\PairedTableRows}{
+KAN & 31 & 0.35 & 0.1 & 4/5 & 1 без обобщения & 4/5; 4.6k \\
+KAN & 31 & 0.35 & 0.3 & 4/5 & 1 без обобщения & 4/5; 2.8k \\
+KAN & 31 & 0.50 & 0.1 & 0/5 & weak 4, joint 1 & 5/5; 0.4k \\
+KAN & 31 & 0.50 & 0.3 & 0/5 & weak 2, joint 3 & 5/5; 0.2k \\
+KAN & 53 & 0.30 & 0.1 & 0/5 & weak 5 & 5/5; 3.9k \\
+KAN & 53 & 0.30 & 0.3 & 0/5 & weak 5 & 5/5; 2.6k \\
+KAN & 53 & 0.35 & 0.1 & 0/5 & weak 5 & 5/5; 2.3k \\
+KAN & 53 & 0.35 & 0.3 & 0/5 & weak 5 & 5/5; 1.6k \\
+MLP & 31 & 0.35 & 0.1 & 0/5 & 5 без обобщения & 0/5 \\
+MLP & 31 & 0.35 & 0.3 & 0/5 & 5 без обобщения & 0/5 \\
+MLP & 31 & 0.50 & 0.1 & 5/5 & -- & 5/5; 5.1k \\
+MLP & 31 & 0.50 & 0.3 & 5/5 & -- & 5/5; 5.3k \\
+MLP & 53 & 0.30 & 0.1 & 5/5 & -- & 5/5; 10.3k \\
+MLP & 53 & 0.30 & 0.3 & 5/5 & -- & 5/5; 13.4k \\
+MLP & 53 & 0.35 & 0.1 & 5/5 & -- & 5/5; 6.2k \\
+MLP & 53 & 0.35 & 0.3 & 5/5 & -- & 5/5; 7.2k \\
+}

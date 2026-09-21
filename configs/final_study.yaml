@@ -1,0 +1,39 @@
+study_name: paired_phase_map
+expected_runs: 80
+
+models:
+  mlp:
+    config: configs/gromov_quadratic_adamw.yaml
+    overrides:
+      - model.width=128
+      - model.activation=quadratic
+      - model.initialization_scale=1.0
+  kan:
+    config: configs/kan_one_hot.yaml
+    overrides:
+      - model.width=14
+      - model.grid_size=5
+      - model.spline_order=3
+
+conditions:
+  - p: 31
+    fractions: [0.35, 0.50]
+    max_steps: 15000
+  - p: 53
+    fractions: [0.30, 0.35]
+    max_steps: 20000
+
+weight_decays: [0.1, 0.3]
+seeds: [10, 11, 12, 13, 14]
+
+common_overrides:
+  - data.input_encoding=one_hot
+  - data.split_mode=random
+  - training.optimizer=adamw
+  - training.learning_rate=0.001
+  - training.eval_every=100
+  - training.grok_threshold=0.99
+  - training.grok_patience=5
+  - training.min_plateau_steps=1000
+  - training.stop_when_grokked=false
+  - training.device=auto

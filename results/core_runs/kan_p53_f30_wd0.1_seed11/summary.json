@@ -1,0 +1,34 @@
+{
+  "checkpoints": 201,
+  "criterion": "test_accuracy >= 0.99 for 5 consecutive checkpoints",
+  "final": {
+    "elapsed_seconds": 781.2631415999995,
+    "step": 20000,
+    "test_accuracy": 0.9954221844673157,
+    "test_loss": 0.3706074357032776,
+    "train_accuracy": 1.0,
+    "train_loss": 0.13700243830680847
+  },
+  "grok_step": null,
+  "phase_metrics": {
+    "accuracy_gap_at_memorization": 0.41963738203048706,
+    "definition": {
+      "accuracy_threshold": 0.99,
+      "low_test_threshold": 0.2,
+      "min_gap_at_memorization": 0.5,
+      "min_plateau_steps": 1000,
+      "patience": 5,
+      "plateau_end_threshold": 0.9
+    },
+    "dynamics": "weak_delayed_generalization",
+    "generalization_delay": 5100,
+    "generalization_step": 6700,
+    "is_classical_grokking": false,
+    "memorization_step": 1600,
+    "plateau_duration_steps": 1300,
+    "plateau_end_step": 2900,
+    "test_accuracy_at_memorization": 0.5732451677322388
+  },
+  "status": "weak_delayed_generalization",
+  "sustained_99_step": 6700
+}

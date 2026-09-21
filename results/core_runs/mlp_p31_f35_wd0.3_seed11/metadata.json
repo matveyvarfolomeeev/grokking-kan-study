@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "input_dim": 62,
+    "input_encoding": "one_hot",
+    "p": 31,
+    "split_mode": "random",
+    "target_encoding": "one-hot(a+b mod p)",
+    "test_examples": 625,
+    "total_examples": 961,
+    "train_examples": 336,
+    "train_fraction_realized": 0.34963579604578565
+  },
+  "device": "cpu",
+  "model": {
+    "activation": "quadratic",
+    "architecture": "bias-free two-layer mean-field network",
+    "initialization_scale": 1.0,
+    "parameters": 11904,
+    "type": "gromov_quadratic",
+    "width": 128
+  },
+  "optimizer": {
+    "batching": "full_batch",
+    "learning_rate": 0.001,
+    "loss": "MSE",
+    "mean_field_lr_scaling": false,
+    "name": "adamw",
+    "weight_decay": 0.3
+  },
+  "packages": {
+    "python": "3.12.13",
+    "pyyaml": "6.0.2",
+    "torch": "2.7.1+cpu"
+  },
+  "project": "modular_addition_grokking",
+  "reference": "Gromov, arXiv:2301.02679",
+  "run_name": "mlp_p31_f35_wd0.3_seed11",
+  "seed": 11,
+  "started_at_unix": 1787250959.9038935
+}

@@ -1,0 +1,28 @@
+project: modular_addition_grokking
+run_name: kan_p31_f35_wd0.1_seed14
+data:
+  p: 31
+  input_encoding: one_hot
+  train_fraction: 0.35
+  split_seed: 14
+  split_mode: random
+model:
+  type: spline_kan
+  width: 14
+  grid_size: 5
+  spline_order: 3
+  grid_range:
+  - -2.0
+  - 2.0
+training:
+  seed: 14
+  optimizer: adamw
+  max_steps: 15000
+  learning_rate: 0.001
+  weight_decay: 0.1
+  eval_every: 100
+  grok_threshold: 0.99
+  grok_patience: 5
+  min_plateau_steps: 1000
+  stop_when_grokked: false
+  device: auto

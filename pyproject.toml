@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grokking-kan"
+version = "0.1.0"
+description = "Reproducible modular arithmetic grokking experiments"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch==2.7.1",
+  "numpy==2.2.6",
+  "PyYAML==6.0.2",
+  "matplotlib==3.10.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

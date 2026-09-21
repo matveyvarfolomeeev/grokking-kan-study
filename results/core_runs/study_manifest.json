@@ -1,0 +1,3846 @@
+{
+  "study": "paired_phase_map",
+  "expected_runs": 80,
+  "runs": [
+    {
+      "run": "mlp_p31_f35_wd0.1_seed10",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.1_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "a49d050816d14e06e907ce19f493affff4d502491ea86e634207b7a3b2893747",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 20.814458899999863,
+      "started_at": "2026-08-20T18:33:43.035336+00:00",
+      "finished_at": "2026-08-20T18:34:03.849795+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.1_seed11",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.1_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "c06f654bd9a8c67d044b3b7448854051d504414371e393d8913da4e48b5bcf9f",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 22.16389930000014,
+      "started_at": "2026-08-20T18:34:03.873477+00:00",
+      "finished_at": "2026-08-20T18:34:26.037376+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.1_seed12",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.1_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "e59dd740530d6b9a746d074c53e10ce79cac10d5b46690194aab5e057d4f1216",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 22.793332100000043,
+      "started_at": "2026-08-20T18:34:26.055971+00:00",
+      "finished_at": "2026-08-20T18:34:48.849303+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.1_seed13",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.1_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "f0034b080afa863c128982ae9b9dc2d87e54649d8248a41329d193726d1890f9",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 23.100746499999786,
+      "started_at": "2026-08-20T18:34:48.872897+00:00",
+      "finished_at": "2026-08-20T18:35:11.973643+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.1_seed14",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.1_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "f0d04b020a9292bf844def133e2e387834c2d483b1ae21db8b8fe66e31170b4a",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 24.039090899999792,
+      "started_at": "2026-08-20T18:35:11.992572+00:00",
+      "finished_at": "2026-08-20T18:35:36.031663+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.3_seed10",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.3_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "075d485fc58d25a34bdc42bbac5d8e9042207b65fe16567059be97f0ef0d8891",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 23.833122499999718,
+      "started_at": "2026-08-20T18:35:36.056210+00:00",
+      "finished_at": "2026-08-20T18:35:59.889332+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.3_seed11",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.3_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "3f42519ea9c467abcb417068a2cf225c588754779063619e90202dd3c693a6ee",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 26.977870299999722,
+      "started_at": "2026-08-20T18:35:59.903893+00:00",
+      "finished_at": "2026-08-20T18:36:26.881764+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.3_seed12",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.3_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "fbd967ed1e6b58ee1969a04ae19ae0a56bf317116b7f0e716417c63602eaee14",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 25.214077999999972,
+      "started_at": "2026-08-20T18:36:26.911030+00:00",
+      "finished_at": "2026-08-20T18:36:52.125108+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.3_seed13",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.3_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "1bc406fe7d6c29c81b48db26ba68ed313fbfc4fb5c38baf31acbf9effe524a3b",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 24.254500000000007,
+      "started_at": "2026-08-20T18:36:52.147990+00:00",
+      "finished_at": "2026-08-20T18:37:16.402490+00:00"
+    },
+    {
+      "run": "mlp_p31_f35_wd0.3_seed14",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f35_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f35_wd0.3_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "a60c729f3a3315b8150984d30da7b6d9aa47fac8bc2039e9043a58c68eb3b1e9",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 25.868221800000356,
+      "started_at": "2026-08-20T18:37:16.421377+00:00",
+      "finished_at": "2026-08-20T18:37:42.289599+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.1_seed10",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.1_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "a0943b62b4f2870f342d0a7c0649fae690f46391a90b076a62a748bcb62750c9",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 137.64947810000012,
+      "started_at": "2026-08-20T18:37:42.300144+00:00",
+      "finished_at": "2026-08-20T18:39:59.949622+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.1_seed11",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.1_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "c73260cb3f3872d95d4e198c4453aadee64c9bcce6a5e2e11871ff9f5c5c8092",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 126.23827869999968,
+      "started_at": "2026-08-20T18:39:59.999663+00:00",
+      "finished_at": "2026-08-20T18:42:06.237942+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.1_seed12",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.1_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "a2fd16949f9797aa650daf8f252b1ac45b7ad190fe4f610ca5bfcb3a8883da4d",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 140.44671640000024,
+      "started_at": "2026-08-20T18:42:06.275106+00:00",
+      "finished_at": "2026-08-20T18:44:26.721823+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.1_seed13",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.1_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "aae5ef52bf816894fe4c17fcd722d2fe2a4b3c94bd417619247b864f80471d12",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 141.74565429999984,
+      "started_at": "2026-08-20T18:44:26.762278+00:00",
+      "finished_at": "2026-08-20T18:46:48.507932+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.1_seed14",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.1_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "b3137b5080e969ffdc2cf859a6381c73dce762c14b1243a194058634eaab88d8",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 138.46726560000025,
+      "started_at": "2026-08-20T18:46:48.545443+00:00",
+      "finished_at": "2026-08-20T18:49:07.012709+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.3_seed10",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.3_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "c1a00fca4db725ff3352c02ef96667dfc404a131e134de4fd7254ab6175d7019",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 129.80340550000028,
+      "started_at": "2026-08-20T18:49:07.060961+00:00",
+      "finished_at": "2026-08-20T18:51:16.864367+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.3_seed11",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.3_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "9856da70c50b60bc28d49fe6eab87c64e268ced2855bd8e5db64fa0a94a813dd",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 317.27359879999995,
+      "started_at": "2026-08-20T18:51:16.901640+00:00",
+      "finished_at": "2026-08-20T18:56:34.175239+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.3_seed12",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.3_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "ca52829bc94024b8a45d5a8215ec189bd68c18024600326c0fc263c9e39f01f6",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 478.9967809,
+      "started_at": "2026-08-20T18:57:36.681742+00:00",
+      "finished_at": "2026-08-20T19:05:35.678523+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.3_seed13",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.3_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "e8af1d6f75b07e354252236b87cebaa8c9da0bcbd8934d37466d141f9fb5c278",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 479.2668785999995,
+      "started_at": "2026-08-20T18:57:36.681742+00:00",
+      "finished_at": "2026-08-20T19:05:35.948620+00:00"
+    },
+    {
+      "run": "kan_p31_f35_wd0.3_seed14",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f35_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f35_wd0.3_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "4808d2efe6fe2fe4661b2587b887c60fdd3352f6d625f6f1f63638166504385a",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 480.0416001000003,
+      "started_at": "2026-08-20T18:57:36.684748+00:00",
+      "finished_at": "2026-08-20T19:05:36.726348+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.1_seed10",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.1_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "405ef58bead5ac2349988ed82305f5eab61cb77babe285e1a8684848bdb3982d",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 140.82894549999946,
+      "started_at": "2026-08-20T18:57:36.681742+00:00",
+      "finished_at": "2026-08-20T18:59:57.510687+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.1_seed11",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.1_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "8b7d8a2faf92d06b26c765c6c60ca31a66e7d8e5f01a1cd0e7a38a44e4bf2245",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 134.54698650000046,
+      "started_at": "2026-08-20T18:59:57.670467+00:00",
+      "finished_at": "2026-08-20T19:02:12.217454+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.1_seed12",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.1_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "60a205fb74e8ca7daca2553ff4e51ef3dd227eb95d2725307992775ba4bf27a7",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 126.60083919999943,
+      "started_at": "2026-08-20T19:02:12.380732+00:00",
+      "finished_at": "2026-08-20T19:04:18.981571+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.1_seed13",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.1_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "eec66af7633cdc416820eb62ba301d6944efd895f0893b9a487963378f787151",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 49.811758900000314,
+      "started_at": "2026-08-20T19:04:19.149679+00:00",
+      "finished_at": "2026-08-20T19:05:08.961438+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.1_seed14",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.1_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "deb7d562073c59d1724df51f5e400f81fda19397a361ba885139c003f4db5881",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 51.62165999999979,
+      "started_at": "2026-08-20T19:05:09.022027+00:00",
+      "finished_at": "2026-08-20T19:06:00.643687+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.3_seed10",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.3_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "efe5a5424c176a08525ca6f5e5d1d9a6cbb794efa9d35c31fd01c59990c4286c",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 51.02908550000029,
+      "started_at": "2026-08-20T19:05:35.739796+00:00",
+      "finished_at": "2026-08-20T19:06:26.768882+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.3_seed11",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.3_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "7ba931cb6efc0cca843b2b5f26286320205ce2ef1c21c3379b5adbb690183242",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 51.32404829999996,
+      "started_at": "2026-08-20T19:05:36.018708+00:00",
+      "finished_at": "2026-08-20T19:06:27.342757+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.3_seed12",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.3_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "9647aa20898466c75feaa472aa8a705ce8f1b0a638c235a0aa9105e4c180dbf4",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 51.1843585000006,
+      "started_at": "2026-08-20T19:05:36.794834+00:00",
+      "finished_at": "2026-08-20T19:06:27.979192+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.3_seed13",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.3_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "2ba133c3614d4f624026951b6595be5f627fb9c4b7048c22559355b2d976d6df",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 51.098953300000176,
+      "started_at": "2026-08-20T19:06:00.677074+00:00",
+      "finished_at": "2026-08-20T19:06:51.776027+00:00"
+    },
+    {
+      "run": "mlp_p31_f50_wd0.3_seed14",
+      "model": "mlp",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/mlp_p31_f50_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p31_f50_wd0.3_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "e42f40bf3bae7912cf77d6d43c479f4075bec5f27dde88750c3a2c2f6798b76e",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 50.84595029999946,
+      "started_at": "2026-08-20T19:06:26.800598+00:00",
+      "finished_at": "2026-08-20T19:07:17.646549+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.1_seed10",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.1_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "f020851fdff83fffe50f867766b471de44ca4c402b0640f4c4013ba106daae59",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 268.21418320000066,
+      "started_at": "2026-08-20T19:06:27.373107+00:00",
+      "finished_at": "2026-08-20T19:10:55.587290+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.1_seed11",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.1_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "5a21147b5c316f25f45e5f843c4a7c4ab61d50fd20a2bee831a931b4a3897ff0",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 268.7960605999997,
+      "started_at": "2026-08-20T19:06:28.015930+00:00",
+      "finished_at": "2026-08-20T19:10:56.811991+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.1_seed12",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.1_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "42c0d3558186392217c1269f8c735a2f9d1c9303e24015ea78cfd4daa72a8deb",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 268.1177824999995,
+      "started_at": "2026-08-20T19:06:51.800297+00:00",
+      "finished_at": "2026-08-20T19:11:19.918080+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.1_seed13",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.1_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "627b993a4e5a30a4f8acbe3caa89ab59cc178a47a554e8628cbbd9590e80acba",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 268.6296925000006,
+      "started_at": "2026-08-20T19:07:17.679098+00:00",
+      "finished_at": "2026-08-20T19:11:46.308790+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.1_seed14",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.1_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "98ee66b5f00427c45cb9f0aa7fb5772f0a3282ba822fecf81a77de3312e7e0ea",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 399.3446651999993,
+      "started_at": "2026-08-20T19:12:15.201934+00:00",
+      "finished_at": "2026-08-20T19:18:54.546599+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.3_seed10",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.3_seed10",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "5f55f54b4a29d3a8c7e7375d1447aefd54c0ff94efab729eed7c9a5d1d197936",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 398.7848243999997,
+      "started_at": "2026-08-20T19:12:15.249621+00:00",
+      "finished_at": "2026-08-20T19:18:54.034446+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.3_seed11",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.3_seed11",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "ef2c847bc0ad572a99713971f8de26f02e88f468a5aa3d55291b7e3b43492cf1",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 398.8951761999997,
+      "started_at": "2026-08-20T19:12:15.390497+00:00",
+      "finished_at": "2026-08-20T19:18:54.285673+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.3_seed12",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.3_seed12",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "1cb1d203472ccddaaf63d7af1bea35e4e9776a74ce83ee0b12862e35c9b5c835",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 398.9555338,
+      "started_at": "2026-08-20T19:12:15.451199+00:00",
+      "finished_at": "2026-08-20T19:18:54.406733+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.3_seed13",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.3_seed13",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "dd85096a570ee640b7da908c506f2952365ad05a010fb3a5660e90b86fc204ae",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 398.6472451999998,
+      "started_at": "2026-08-20T19:12:15.422349+00:00",
+      "finished_at": "2026-08-20T19:18:54.069595+00:00"
+    },
+    {
+      "run": "kan_p31_f50_wd0.3_seed14",
+      "model": "kan",
+      "p": 31,
+      "train_fraction": 0.5,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 15000,
+      "run_dir": "results/core_runs/kan_p31_f50_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p31_f50_wd0.3_seed14",
+        "data": {
+          "p": 31,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.5,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 15000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "b0b4d255a51e1616cd83b4dffbb161e8bd4efa0c39314bad01c1237c2ba501d7",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 398.6001575999999,
+      "started_at": "2026-08-20T19:12:15.414911+00:00",
+      "finished_at": "2026-08-20T19:18:54.015068+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.1_seed10",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.1_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "bbe13f2123e861ff6dcfeb4bef01fbc25db61f043b045b1cf6017a9c561d4d95",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 151.22833770000034,
+      "started_at": "2026-08-20T19:12:15.464471+00:00",
+      "finished_at": "2026-08-20T19:14:46.692808+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.1_seed11",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.1_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "0ddb158eb975091412b714565ab8494ec72bc2b4cf6bf816ccd91bc4549b9576",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 150.8171530999998,
+      "started_at": "2026-08-20T19:12:15.546835+00:00",
+      "finished_at": "2026-08-20T19:14:46.363988+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.1_seed12",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.1_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "8feb28840ed4f76467829c1b739a8a5f3b3826ba657167ff474d9c42c2834e99",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 157.69610790000024,
+      "started_at": "2026-08-20T19:14:46.459993+00:00",
+      "finished_at": "2026-08-20T19:17:24.156101+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.1_seed13",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.1_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "38e67a8d856b3569b43bf897410792658ccd068d2e9f6f013ef6d4681bbb2da7",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 157.83171239999956,
+      "started_at": "2026-08-20T19:14:46.792327+00:00",
+      "finished_at": "2026-08-20T19:17:24.624040+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.1_seed14",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.1_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "480112ae79cc3bddfcf2d1fa46cd429b7357a20ee35aad649d42f7f66e877e26",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 172.92721640000036,
+      "started_at": "2026-08-20T19:17:24.263056+00:00",
+      "finished_at": "2026-08-20T19:20:17.190272+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.3_seed10",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.3_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "ff66deae68ef54a01a17bda9d175ba4e644971b6ffd741b75d64aee2ed6c0402",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 172.61548180000045,
+      "started_at": "2026-08-20T19:17:24.709373+00:00",
+      "finished_at": "2026-08-20T19:20:17.324855+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.3_seed11",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.3_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "3e77d4d18d317f2975941624572ae5d2175bd6384c725f5f9bc26d0dedb40a0d",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 191.89391699999942,
+      "started_at": "2026-08-20T19:18:54.148000+00:00",
+      "finished_at": "2026-08-20T19:22:06.041917+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.3_seed12",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.3_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "034967a20d31c97ceef5cd01fe3467a482c4b3ce5032cbc183e73acf6cefdf91",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 192.81098360000033,
+      "started_at": "2026-08-20T19:18:54.150015+00:00",
+      "finished_at": "2026-08-20T19:22:06.960998+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.3_seed13",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.3_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "e71b6c1e016e56748c8cc86a2bd4819aae715aebe8a55f76743c204a761d6b4b",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 192.06487730000026,
+      "started_at": "2026-08-20T19:18:54.184049+00:00",
+      "finished_at": "2026-08-20T19:22:06.248926+00:00"
+    },
+    {
+      "run": "mlp_p53_f30_wd0.3_seed14",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f30_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f30_wd0.3_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "0378d061a2afb903656d08cf60bdfa22a5ce83717c1f73444210590e1b03570a",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 192.9972828,
+      "started_at": "2026-08-20T19:18:54.403905+00:00",
+      "finished_at": "2026-08-20T19:22:07.401187+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.1_seed10",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.1_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "d13f9c89da11909674489040768c6e4fab19e3ad410296b6eddfee81e2310210",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 780.7642907,
+      "started_at": "2026-08-20T19:18:54.510544+00:00",
+      "finished_at": "2026-08-20T19:31:55.274835+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.1_seed11",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.1_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "7c7c466f1ee043bbd12e22a2f1477aa44e6d82a30afdd87aecba08f8c0cf5512",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 781.2631415999995,
+      "started_at": "2026-08-20T19:18:54.664137+00:00",
+      "finished_at": "2026-08-20T19:31:55.927278+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.1_seed12",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.1_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "ba501c382a7cf28102a1d8be3dbb0bc33f81814c7cdbf908c2aef60e120aa4ea",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 786.4861265,
+      "started_at": "2026-08-20T19:20:17.287437+00:00",
+      "finished_at": "2026-08-20T19:33:23.773563+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.1_seed13",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.1_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "cc15a8e169ada2db375340e1e0f64768f7f388a8f17d51f3dccd0e59fbffff66",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 787.8469831000002,
+      "started_at": "2026-08-20T19:20:17.453794+00:00",
+      "finished_at": "2026-08-20T19:33:25.300777+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.1_seed14",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.1_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "f5509e38301d01df057e7b3f1c0cdd39adde0037991ce1d2034af552b3f1088b",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 786.8707815999996,
+      "started_at": "2026-08-20T19:22:06.110646+00:00",
+      "finished_at": "2026-08-20T19:35:12.981427+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.3_seed10",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.3_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "fc56e417cf9b98d1569b31666fac148b8f8054dea61f174cb8654fc64e1f46d5",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 786.8334893000001,
+      "started_at": "2026-08-20T19:22:06.351992+00:00",
+      "finished_at": "2026-08-20T19:35:13.185481+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.3_seed11",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.3_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "3299d8e33b93ee4f72bb83b497cc8657a0bb9d06d35e024645815f140db1ccba",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 785.6634468000002,
+      "started_at": "2026-08-20T19:22:07.063178+00:00",
+      "finished_at": "2026-08-20T19:35:12.726625+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.3_seed12",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.3_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "807a546d01f75b924354934c4dec18d10e9d55560f39a7925d1215c9d94f3381",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 787.9863382999993,
+      "started_at": "2026-08-20T19:22:07.478896+00:00",
+      "finished_at": "2026-08-20T19:35:15.465234+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.3_seed13",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.3_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "22588ec0d8abc47db870f5d4f01ff53e511e735a8dd5f3df6c9c8e7e50cea919",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 800.1917561,
+      "started_at": "2026-08-20T19:31:55.446142+00:00",
+      "finished_at": "2026-08-20T19:45:15.637898+00:00"
+    },
+    {
+      "run": "kan_p53_f30_wd0.3_seed14",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.3,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f30_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f30_wd0.3_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.3,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "a34485e0997103da58e3a930ee1d0c1ec3fdd311a54820e2c0547464f5869d6f",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 802.6555927999998,
+      "started_at": "2026-08-20T19:31:56.147529+00:00",
+      "finished_at": "2026-08-20T19:45:18.803122+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.1_seed10",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.1_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "e671a66abe86bd20cf6780c994a6b7bc4a9a54fec3e70a1972fd571133c4a45d",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 198.7995277,
+      "started_at": "2026-08-20T19:33:23.965023+00:00",
+      "finished_at": "2026-08-20T19:36:42.764550+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.1_seed11",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.1_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "6d6eda16cf7df6562848a086c24fbcccf578816565b5d839e7d563c548b1d40c",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 199.6511657000001,
+      "started_at": "2026-08-20T19:33:25.488932+00:00",
+      "finished_at": "2026-08-20T19:36:45.140097+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.1_seed12",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.1_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "62a18437144cd1eb29c196544e20c24ea7c12e3ab08eb6ce57a8b03e0e667baf",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 194.74207509999997,
+      "started_at": "2026-08-20T19:35:12.939384+00:00",
+      "finished_at": "2026-08-20T19:38:27.681459+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.1_seed13",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.1_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "0090e70c4efa89259445c463a3fffa7a60a788bfd65828bea4e5024b4553a866",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 194.7391235999994,
+      "started_at": "2026-08-20T19:35:13.194412+00:00",
+      "finished_at": "2026-08-20T19:38:27.933535+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.1_seed14",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.1_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "4fedc6cd60451b7ece4ac6aa77a090b42d5d4e14c3ba9f968c8ce07b37dd1264",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 195.15462239999943,
+      "started_at": "2026-08-20T19:35:13.353203+00:00",
+      "finished_at": "2026-08-20T19:38:28.507826+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.3_seed10",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.3_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "5b405a50a4101016db6cf5dad917acf36bf4dcc5484df880f6d5ded112bab85a",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 196.31514750000042,
+      "started_at": "2026-08-20T19:35:15.643268+00:00",
+      "finished_at": "2026-08-20T19:38:31.958415+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.3_seed11",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.3_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "472fc3269e63123f34ccd02507916584e2cdf5ddc19da13c6249178eda21cca5",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 199.98940260000018,
+      "started_at": "2026-08-20T19:36:42.851190+00:00",
+      "finished_at": "2026-08-20T19:40:02.840592+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.3_seed12",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.3_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "42cb31955c40efe45595f52b3a134580e066e7f8676ae414d7580309fc8704cf",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 201.32009459999972,
+      "started_at": "2026-08-20T19:36:45.223090+00:00",
+      "finished_at": "2026-08-20T19:40:06.543185+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.3_seed13",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.3_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "d1a050801cdb9dc7d42eb88cbe2664c05dc521344694b49422c9a42d4629ebb3",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 210.38222600000063,
+      "started_at": "2026-08-20T19:38:27.780771+00:00",
+      "finished_at": "2026-08-20T19:41:58.162997+00:00"
+    },
+    {
+      "run": "mlp_p53_f35_wd0.3_seed14",
+      "model": "mlp",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/mlp_p53_f35_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "mlp_p53_f35_wd0.3_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "gromov_quadratic",
+          "width": 128,
+          "activation": "quadratic",
+          "initialization_scale": 1.0
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "9dc8b878ffd9ef1e1f6850df237852693bf6b67b552dab0ba2e891b87fa2d0d3",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 210.0422835999998,
+      "started_at": "2026-08-20T19:38:28.056075+00:00",
+      "finished_at": "2026-08-20T19:41:58.098358+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.1_seed10",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.1_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.1_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "c41abc947dd5fa5408986de38dc31230c55779eac752b3e5a17d319e527575c9",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 845.9090788000003,
+      "started_at": "2026-08-20T19:38:28.580389+00:00",
+      "finished_at": "2026-08-20T19:52:34.489468+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.1_seed11",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.1_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.1_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "d1d4b82044092490e81519c1889af62b2812d686ad963295b9fa514d0c2e01c2",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 848.5210005999998,
+      "started_at": "2026-08-20T19:38:32.114050+00:00",
+      "finished_at": "2026-08-20T19:52:40.635051+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.1_seed12",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.1_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.1_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "2a33661c57a2d8d66c03e3dfc75df147021799da65184db1596732f2675a7996",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 852.9980069000003,
+      "started_at": "2026-08-20T19:40:02.926567+00:00",
+      "finished_at": "2026-08-20T19:54:15.924574+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.1_seed13",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.1_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.1_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "0617b7f49232985396b9f595d8682514984f1f23d5b15a12b2a3cbade64421c2",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 852.4833841999998,
+      "started_at": "2026-08-20T19:40:06.666639+00:00",
+      "finished_at": "2026-08-20T19:54:19.150023+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.1_seed14",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.1,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.1_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.1_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.1,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "28424e0d79e404293bd514fbacd5dc1394ae7e8c521d3ae14f6bbb3ab8612b8e",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 832.6287978999999,
+      "started_at": "2026-08-20T19:41:58.209754+00:00",
+      "finished_at": "2026-08-20T19:55:50.838552+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.3_seed10",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 10,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.3_seed10",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.3_seed10",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 10,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 10,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "08da8a58d8cbe816bf9c1eed1bf45ab77cf277469e7c6318f3a462c96a900f99",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 832.1359296999999,
+      "started_at": "2026-08-20T19:41:58.246000+00:00",
+      "finished_at": "2026-08-20T19:55:50.381929+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.3_seed11",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 11,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.3_seed11",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.3_seed11",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 11,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 11,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "2a22625e9ebb1968c6eda1d0270b58d5a90595eaf0e8671225b5e6c615ba8121",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 766.6799572999998,
+      "started_at": "2026-08-20T19:45:15.841451+00:00",
+      "finished_at": "2026-08-20T19:58:02.521408+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.3_seed12",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 12,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.3_seed12",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.3_seed12",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 12,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 12,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "eb66a435021dcf8a73fcabc913b8d296d4cca7d7b7ec83f230a097e60717dcd6",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 767.1962423000004,
+      "started_at": "2026-08-20T19:45:19.023008+00:00",
+      "finished_at": "2026-08-20T19:58:06.219251+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.3_seed13",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 13,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.3_seed13",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.3_seed13",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 13,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 13,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "8ad8a2a9a13b0ad53124206c3e0a1effa4395bf22e918d4dbc912c45be0ac2b9",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 536.8158736999994,
+      "started_at": "2026-08-20T19:52:34.753033+00:00",
+      "finished_at": "2026-08-20T20:01:31.568907+00:00"
+    },
+    {
+      "run": "kan_p53_f35_wd0.3_seed14",
+      "model": "kan",
+      "p": 53,
+      "train_fraction": 0.35,
+      "weight_decay": 0.3,
+      "seed": 14,
+      "max_steps": 20000,
+      "run_dir": "results/core_runs/kan_p53_f35_wd0.3_seed14",
+      "config": {
+        "project": "modular_addition_grokking",
+        "run_name": "kan_p53_f35_wd0.3_seed14",
+        "data": {
+          "p": 53,
+          "input_encoding": "one_hot",
+          "train_fraction": 0.35,
+          "split_seed": 14,
+          "split_mode": "random"
+        },
+        "model": {
+          "type": "spline_kan",
+          "width": 14,
+          "grid_size": 5,
+          "spline_order": 3,
+          "grid_range": [
+            -2.0,
+            2.0
+          ]
+        },
+        "training": {
+          "seed": 14,
+          "optimizer": "adamw",
+          "max_steps": 20000,
+          "learning_rate": 0.001,
+          "weight_decay": 0.3,
+          "eval_every": 100,
+          "grok_threshold": 0.99,
+          "grok_patience": 5,
+          "min_plateau_steps": 1000,
+          "stop_when_grokked": false,
+          "device": "auto"
+        }
+      },
+      "config_sha256": "ffdc3d1c349e82b5c775524e48f910392af7594e9047b4f3090384dbd8ebb79d",
+      "status": "completed",
+      "resume_action": "skipped_existing",
+      "wall_seconds": 533.3296667999994,
+      "started_at": "2026-08-20T19:52:40.883776+00:00",
+      "finished_at": "2026-08-20T20:01:34.213443+00:00"
+    }
+  ]
+}

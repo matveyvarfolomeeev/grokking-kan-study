@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=18mm]{geometry}
+\usepackage{fontspec,microtype,graphicx,xcolor,tabularx,hyperref}
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\pagestyle{empty}
+\definecolor{accent}{HTML}{2563EB}
+\definecolor{good}{HTML}{15803D}
+\input{results_values.tex}
+
+\begin{document}
+{\color{accent}\small КРАТКОЕ ОПИСАНИЕ ИССЛЕДОВАНИЯ}\par
+{\LARGE\bfseries Grokking модульной арифметики: MLP против spline-KAN}\par
+{\small Автор: Варфоломеев Матвей Денисович}\par
+\vspace{3mm}
+
+\textbf{Вопрос.} Как меняются запоминание и обобщение, если в задаче модульного
+сложения заменить quadratic MLP на основе архитектуры Громова на spline-KAN
+сопоставимого размера? Оптимизация адаптирована к сравнению на AdamW; работа
+строит карту фаз, а не доказывает превосходство KAN.
+
+\textbf{Протокол.} После exploratory-поиска на $p=97$ зафиксированы критерий и
+матрица основной серии. Классический grokking требует устойчивого раннего
+train-запоминания, низкого test в этот момент, плато не менее 1000 шагов и лишь
+затем устойчивых 99\% test. Выполнены 80 запусков: четыре условия,
+две архитектуры, два weight decay и пять seed; незавершившиеся результаты
+цензурируются.
+
+\textbf{Методы.} Модели получают one-hot $(a,b)$ и предсказывают
+$(a+b)\bmod p$ при общих MSE, full-batch AdamW, \texttt{lr=0.001}, split и
+бюджете. В точках запоминания, обобщения и финала измеряются
+Fourier-диагональная мощность и PCA participation rank. Для пяти KAN зануляются
+1\%, 5\% и 10\% top, random и bottom рёбер; random повторяется десять раз.
+
+\textbf{Главный результат.} \MainResultLong
+
+\textbf{Поддерживающие признаки.} У KAN медианная Fourier-концентрация растёт с
+\KanFourierMem{} при запоминании до \KanFourierFinal{} в финале. Удаление 10\%
+рёбер меняет test accuracy на \TopTenDelta{} для top, \RandomTenDelta{} для
+random и \BottomTenDelta{} для bottom. Top сильнее bottom в 5/5 моделей, но
+сильнее random-медианы лишь в 4/5.
+
+\textbf{Проверка вывода.} $p=97$ исключён после exploratory-этапа: его
+кривые не показывали убедительного grokking. Строгий критерий изменил класс
+части 99\%-запусков. На symmetry-safe split KAN дала 0/5, а MLP в своём
+режиме $p=31$, 50\% --- 5/5: результат KAN зависит от split.
+
+\textbf{Воспроизводимость.} Репозиторий фиксирует критерий фаз, матрицу,
+конфигурации, истории всех запусков и отрицательные результаты. Итоговые таблицы
+строятся непосредственно из сохранённых метрик; контрольные суммы позволяют
+проверить состав комплекта.
+
+\textbf{Ограничения.} Пять seed дают широкие Wilson intervals;
+Fourier-структура не доказывает единственный алгоритм; сплайн вне наблюдавшихся
+one-hot значений не интерпретируется. Сохранены код, 80 историй и таблицы.
+
+\vfill
+{\small Основа: Gromov (2023), Power et al. (2022), Nanda et al. (2023),
+Liu et al. (2024). Полный воспроизводимый протокол находится в репозитории.}
+\end{document}
