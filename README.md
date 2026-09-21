@@ -1,8 +1,6 @@
 # Grokking in modular arithmetic: quadratic MLP vs spline KAN
 
-A reproducible study of **when** small neural networks memorize and generalize modular addition. I compared a quadratic MLP with a similarly sized spline KAN under the same data, loss and full-batch AdamW training. The main result is a change in the *phase map*, not a universal win for either architecture.
-
-![Phase map across the paired experiment](results/figures/paired_phase_heatmap.png)
+A reproducible study of **when** small neural networks memorize and generalize modular addition. I compared a quadratic MLP based on [Gromov's *Grokking modular arithmetic*](https://arxiv.org/abs/2301.02679) with a similarly sized spline KAN under the same data, loss and full-batch AdamW training. The main result is a change in the *phase map*, not a universal win for either architecture.
 
 ## Results at a glance
 
@@ -14,6 +12,10 @@ The confirmatory matrix contains **80 runs**: 4 data conditions × 2 architectur
 | `p=31`, 50% training pairs | 10/10 classical | 0/10 classical |
 | `p=53`, 30% or 35% training pairs | 20/20 classical | 0/20 classical |
 | **All 80 runs** | **30/40 classical** | **8/40 classical** |
+
+![Phase map for all 80 runs, grouped by condition, architecture and weight decay](results/figures/paired_phase_heatmap.png)
+
+*Phase map for the same 80 runs shown in the table. [Open the full-size figure](results/figures/paired_phase_heatmap.png).*
 
 At `p=53`, all 20 KAN runs reached the separately defined *weak delayed generalization* category. A symmetry-safe split removed the KAN result at `p=31`, 35% (0/5 classical). The available MLP symmetry-safe control used **50%** training pairs, so those two controls are not a matched architectural comparison. See the [full phase table](results/tables/paired_summary.csv), [individual runs](results/tables/paired_runs.csv), and [protocol](docs/research_protocol.md).
 
